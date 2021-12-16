@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(55 55 58);
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Roboto", 'Segoe UI', Tahoma, sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+
+.box {
+    height: 75vh;
+}
+
+.box1 {
+    padding: 10px 0 5px 20px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.heading {
+    color: #fff;
+    margin-top: 100px;
+    /* font-weight: bold; */
+    font-weight: 500;
+    font-size: 5.5rem;
+    /* width: 1%; */
+    /* margin: auto; */
+    /* align-self: center; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.input {
+    background-color: #fff;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    width: 35vw;
+    margin: auto;
+    padding: 8px 0px 8px 0px;
+}
+
+.input input {
+    outline: none;
+    width: 29vw;
+    border: transparent;
+}
+
+.input input::placeholder {
+    font-weight: 600;
+    color: rgb(87, 86, 86);
+}
+
+.fa {
+    padding: 12px 10px 8px 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 49%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 49%;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+    background: #00aff0;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.text-box {
+    font-size: small;
+}
+
+.img-box {
+    border: 0px solid transparent;
+    border-radius: 90%;
+    background-color: rgb(0 0 0 / 31%);
+    ;
+    padding: 13px 8px;
+    width: 65px;
+}
+
+.custom-btn {
+    border: 0px solid transparent;
+    background-color: rgb(40 40 40);
+    border-radius: 20px;
+    padding: 8px 10px;
+    float: right !important;
+    box-shadow: 0px 2px 8px 3px #181818;
+    font-size: 13px;
+    font-weight: 450;
+}
+
+.d-flex {
+    padding: 15px 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.d-flex img {
+    border: 0px solid transparent;
+    border-radius: 20px;
+}
+
+.d-flex a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.d-flex a:hover {
+    text-decoration: underline;
+}
+@media (min-width:800px) {
+    .box1:hover {
+    background-color: rgba(66, 66, 70, 0.8);
+    border: 0px solid transparent;
+    border-radius: 7px;
+    /* color: tomato; */
+    /* transform: scale(2); */
+
+}
+}
+@media screen and (min-width:500px)  and (max-width:800px) {
+    .input {
+    /* background-color: #fff;
+    border: 0px solid transparent;
+    border-radius: 30px; */
+    width: 51vw;
+    margin: auto;
+    padding: 8px 0px 8px 0px;
+}
+
+.input input {
+    outline: none;
+    width: 41vw;
+    border: transparent;
+}     
+.box1:hover {
+    background-color: rgba(66, 66, 70, 0.8);
+    border: 0px solid transparent;
+    border-radius: 7px;
+    /* color: tomato; */
+    /* transform: scale(2); */
+
+}
+}
+@media (max-width:500px) {
+    .custom-btn{
+        display: none;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .input {
+    /* background-color: #fff;
+    border: 0px solid transparent;
+    border-radius: 30px; */
+    width: 85vw;
+    margin: auto;
+    padding: 8px 0px 8px 0px;
+}
+
+.input input {
+    outline: none;
+    width: 65vw;
+    border: transparent;
+}
+}
