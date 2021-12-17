@@ -1,7 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-image: linear-gradient(180deg, rgb(204, 199, 206), rgb(149, 139, 144));
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
+
 }
 
 .card {
@@ -99,7 +105,33 @@ body {
     top: -2px;
     border-top-left-radius: 15px;
 }
+@media screen and (min-width:600px) and (max-width:900px) {
+    .r1 .col-3{
+        width: 31%;
+    }
+     .r2 img,.r1 img{
+        height: 180px !important;
+    }
+    .r3 img{
+        height: 150px !important;
+    }
+    .r2 .row>*, .r1 .row>*{
+        padding-left: 1px !important;
+        padding-right: 3px !important;
+        padding-top: 10px;
+    }
+    .r2 .card-title{
+        margin-top: 1rem;
+    }
+    .r2 .card-body {
+        padding: 0 5px 10px 5px !important;
+        /* margin-bottom: 10px; */
+    }
+     .col-md-11{
+        width: 94.5% !important;
 
+    }
+}
 @media (min-width:600px) {
 
     .r2 img,
@@ -129,7 +161,9 @@ body {
     transform: scale(1.08);
 }
 
-
+.r1 img{
+    height: 250px;
+}
 
 @keyframes slideright {
 
@@ -161,20 +195,42 @@ body {
 }
 
 @media (max-width:600px) {
+    body{
+        height: 102vh;
+    }
     .col-lg-2 {
         border-bottom: 1px solid black;
     }
-
-    .r1,
+.r1{
+    /* margin-right: 20px;
+    margin: 0 10px 0 15px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+/* .r1 .col-lg-3{
+    margin:  10px !important;
+} */
+.r1 .card{
+    width: 120%;
+}
+.r1 .card-body{
+    padding: 0.5rem 1rem !important; 
+}
+    .r2 .row>*, .r1 .row>*{
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+    }
     .r2 {
         margin-left: 5px !important;
-        margin-right: 5px !important;
-
+        margin-right: 0px !important;
     }
-
+.card-body .row>* {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
     .margin {
         margin-left: 10px !important;
-        margin-right: 10px !important;
+        margin-right: -2px !important;
     }
     .r1 {
     animation-duration: 1s;
@@ -183,15 +239,84 @@ body {
 }
     .r2 .card-body {
         padding: 0 5px 10px 5px !important;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
 
-    .r3 img {
+    /* .r3 img {
         width: 285px;
         align-self: center;
         margin-left: 40px !important;
+    } */
+    .r1 img{
+        height: 90px;
     }
+    .r3 img,.r2 img{
+        height: 50px;
+    }
+.r2 .card-body .card-title{
+    font-size:10.7px;
+}
+.r2 .card-body button{
+    font-size: 7.2px;
+    border-radius: 10px;
+    padding: 3px 5px 5px 5px!important;
+}
+.r2 .col-2{
+    width: 20%;
+}
+    .r1 button{
+        font-size:10px;
+        font-weight: bolder;
+        padding: 3px 8px 5px 8px!important;
+    }
+    .r1 p{
+        font-size: 10px;
+        font-weight: 625;
+    }
+.r3 .card-title{
+    font-size: 15px;
+}
+.r3 .card-body{
+    padding:  0.5rem 0 !important;
+}
 
+.box:before {
+    right: -13.6px;
+    bottom: -0.5px;
+    border-left: 14px solid #eb3b52;
+    border-top: 16px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.box {
+    position: relative;
+    left: -14px;
+    top: -2px;
+    border-top-left-radius: 15px;
+}
+
+.box {
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(150deg, rgb(233, 131, 131), #e6586b, #eb3b52);
+    /* background: #eb3b52; */
+    position: relative;
+    font-weight: bolder;
+    font-size:18px;
+}
+.r3 .box:before{
+    right: -13.6px;
+    bottom: -0.5px;
+    border-left: 14px solid #e65da1;
+    border-top: 16px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.r3 .box {
+    position: relative;
+    left: -14px;
+    top: -2px;
+    border-top-left-radius: 15px;
+}
 }
 .hidden {
 opacity: 0;
