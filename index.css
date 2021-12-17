@@ -201,17 +201,9 @@ body {
     .col-lg-2 {
         border-bottom: 1px solid black;
     }
-.r1{
-    /* margin-right: 20px;
-    margin: 0 10px 0 15px; */
-    /* padding-left: 10px;
-    padding-right: 10px; */
-}
-/* .r1 .col-lg-3{
-    margin:  10px !important;
-} */
+
 .r1 .card{
-    width: 120%;
+    width: 118%;
 }
 .r1 .card-body{
     padding: 0.5rem 1rem !important; 
