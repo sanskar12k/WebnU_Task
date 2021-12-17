@@ -197,6 +197,7 @@ body {
 @media (max-width:600px) {
     body{
         height: 102vh;
+        margin-right: 10px;
     }
     .col-lg-2 {
         border-bottom: 1px solid black;
@@ -204,6 +205,9 @@ body {
 
 .r1 .card{
     width: 118%;
+}
+.r1 .row{
+    margin-left:-15px !important;
 }
 .r1 .card-body{
     padding: 0.5rem 1rem !important; 
